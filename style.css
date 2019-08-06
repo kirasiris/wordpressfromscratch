@@ -1,0 +1,49 @@
+/*
+*
+* Theme Name: WordPress from Scratch
+* Description: Mi Primer Template para WordPress hecho en Bootstrap 4
+* Author: Kevin Fonseca
+* Version: 1
+*
+*/
+
+.widgets ul{
+  padding-left: 0px;
+  list-style: none;
+}
+
+.tagcloud .tag-cloud-link {
+  border: 1px solid #000;
+  padding: 3px;
+  display: inline-block;
+  margin: 3px;
+  text-decoration: none;
+}
+
+.tagcloud .tag-cloud-link:hover {
+  background-color: #dcdcdc;
+  color: #fff;
+}
+
+.textwidget{
+  padding: 10px;
+}
+
+/*
+*
+* SIDEBAR POSITION CUSTOMIZER
+*
+*/
+@media screen and (min-width: 56.875em) {
+  .left-sidebar .sidebar {
+    float: left;
+    margin-right: 75%;
+    margin-left: 0;
+  }
+
+  .left-sidebar .content-area {
+    float: right;
+    margin-left: -100%;
+    margin-right: 0;
+  }
+}
